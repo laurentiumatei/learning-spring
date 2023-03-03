@@ -15,7 +15,8 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web',
 			'org.springframework.boot:spring-boot-starter-data-jpa',
-			'com.h2database:h2'
+			'com.h2database:h2',
+			'org.springframework.boot:spring-boot-starter-thymeleaf'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
